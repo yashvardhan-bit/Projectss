@@ -1,0 +1,633 @@
+{
+  "AI Engineer": {
+    "required_skills": ["Python", "Deep Learning", "NLP", "Machine Learning", "Deployment"],
+    "roadmap": [
+      {
+        "title": "Python for ML",
+        "skills": ["Python"],
+        "explanation": "Be comfortable with Python, data handling, and basic algorithms.",
+        "resources": ["Kaggle Learn: Python", "Python Official Tutorial"]
+      },
+      {
+        "title": "Machine learning foundations",
+        "skills": ["Machine Learning"],
+        "explanation": "Learn model training workflow, evaluation, and classical ML techniques.",
+        "resources": ["scikit-learn tutorials", "Hands-On ML (book)"]
+      },
+      {
+        "title": "Deep learning",
+        "skills": ["Deep Learning"],
+        "explanation": "Learn neural networks, backprop, CNNs/RNNs/Transformers at a high level.",
+        "resources": ["DeepLearning.AI courses", "PyTorch tutorials"]
+      },
+      {
+        "title": "NLP fundamentals",
+        "skills": ["NLP"],
+        "explanation": "Learn embeddings, tokenization, transformers, and evaluation basics.",
+        "resources": ["Hugging Face course", "Jurafsky & Martin (chapters)"]
+      },
+      {
+        "title": "Deployment for AI",
+        "skills": ["Deployment"],
+        "explanation": "Learn packaging, APIs, model serving, monitoring, and simple CI/CD.",
+        "resources": ["FastAPI deployment guides", "Docker getting started"]
+      }
+    ]
+  },
+  "Backend Developer": {
+    "required_skills": ["Python", "APIs", "Databases", "Authentication", "Deployment"],
+    "roadmap": [
+      {
+        "title": "Programming and HTTP basics",
+        "skills": ["Python", "APIs"],
+        "explanation": "Learn a backend language well and understand how HTTP requests and responses work.",
+        "resources": ["Python Official Tutorial", "MDN HTTP Overview"]
+      },
+      {
+        "title": "API design",
+        "skills": ["APIs"],
+        "explanation": "Practice building REST endpoints, validation, and error handling.",
+        "resources": ["FastAPI docs", "REST API design guides"]
+      },
+      {
+        "title": "Databases",
+        "skills": ["Databases"],
+        "explanation": "Understand relational modeling, queries, indexing, and basic schema design.",
+        "resources": ["PostgreSQL tutorial", "SQLBolt"]
+      },
+      {
+        "title": "Authentication and security",
+        "skills": ["Authentication"],
+        "explanation": "Learn sessions, tokens, password hashing, and secure API practices.",
+        "resources": ["OWASP Top 10", "FastAPI security docs"]
+      },
+      {
+        "title": "Deployment and operations",
+        "skills": ["Deployment"],
+        "explanation": "Deploy a backend service and learn logs, env vars, and monitoring basics.",
+        "resources": ["Docker docs", "Render or Railway guides"]
+      }
+    ]
+  },
+  "Cloud Engineer": {
+    "required_skills": ["Linux", "Cloud", "Networking", "Infrastructure as Code", "Security"],
+    "roadmap": [
+      {
+        "title": "Linux and command line",
+        "skills": ["Linux"],
+        "explanation": "Get comfortable with files, processes, permissions, and shell scripting.",
+        "resources": ["Linux Journey", "The Linux Command Line"]
+      },
+      {
+        "title": "Networking basics",
+        "skills": ["Networking"],
+        "explanation": "Learn IPs, DNS, load balancing, and how services communicate.",
+        "resources": ["Cloudflare Learning Center", "Cisco networking basics"]
+      },
+      {
+        "title": "Cloud foundations",
+        "skills": ["Cloud"],
+        "explanation": "Understand compute, storage, IAM, and managed services on a major cloud.",
+        "resources": ["AWS Cloud Practitioner", "Azure Fundamentals"]
+      },
+      {
+        "title": "Infrastructure as Code",
+        "skills": ["Infrastructure as Code"],
+        "explanation": "Use Terraform or similar tools to define and version your infrastructure.",
+        "resources": ["Terraform docs", "HashiCorp tutorials"]
+      },
+      {
+        "title": "Cloud security",
+        "skills": ["Security"],
+        "explanation": "Learn least privilege, secrets handling, and secure cloud configuration.",
+        "resources": ["AWS Well-Architected", "OWASP cheat sheets"]
+      }
+    ]
+  },
+  "Cybersecurity Analyst": {
+    "required_skills": ["Networking", "Linux", "Security Fundamentals", "Threat Detection", "Scripting"],
+    "roadmap": [
+      {
+        "title": "Networking and operating systems",
+        "skills": ["Networking", "Linux"],
+        "explanation": "Learn how systems communicate and how common operating systems behave.",
+        "resources": ["Professor Messer Network+", "Linux Journey"]
+      },
+      {
+        "title": "Security fundamentals",
+        "skills": ["Security Fundamentals"],
+        "explanation": "Cover common attack types, defensive controls, and security best practices.",
+        "resources": ["CompTIA Security+ resources", "OWASP Top 10"]
+      },
+      {
+        "title": "Threat detection basics",
+        "skills": ["Threat Detection"],
+        "explanation": "Learn log analysis, indicators of compromise, and incident triage basics.",
+        "resources": ["Blue Team Labs", "Splunk fundamentals"]
+      },
+      {
+        "title": "Scripting for automation",
+        "skills": ["Scripting"],
+        "explanation": "Use Python or shell scripts to automate repetitive security tasks.",
+        "resources": ["Python Official Tutorial", "PowerShell docs"]
+      },
+      {
+        "title": "Hands-on labs",
+        "skills": ["Threat Detection"],
+        "explanation": "Practice with safe labs and simulated incidents to build confidence.",
+        "resources": ["TryHackMe", "Hack The Box Academy"]
+      }
+    ]
+  },
+  "Data Analyst": {
+    "required_skills": ["SQL", "Excel", "Python", "Data Visualization", "Statistics"],
+    "roadmap": [
+      {
+        "title": "Spreadsheet and SQL basics",
+        "skills": ["Excel", "SQL"],
+        "explanation": "Learn cleaning, formulas, joins, filters, and summary reporting.",
+        "resources": ["Excel basics course", "SQLBolt"]
+      },
+      {
+        "title": "Python for analysis",
+        "skills": ["Python"],
+        "explanation": "Use Python for data cleaning, transformation, and exploratory analysis.",
+        "resources": ["Kaggle Learn", "Pandas docs"]
+      },
+      {
+        "title": "Statistics for decision making",
+        "skills": ["Statistics"],
+        "explanation": "Cover averages, distributions, significance, and basic experimentation.",
+        "resources": ["Khan Academy: Statistics", "StatQuest"]
+      },
+      {
+        "title": "Data storytelling",
+        "skills": ["Data Visualization"],
+        "explanation": "Turn findings into clear visual explanations for non-technical audiences.",
+        "resources": ["Tableau resources", "Storytelling with Data"]
+      },
+      {
+        "title": "Portfolio dashboards",
+        "skills": ["Data Visualization"],
+        "explanation": "Build a few dashboard or reporting projects that show business impact.",
+        "resources": ["Power BI docs", "Tableau Public"]
+      }
+    ]
+  },
+  "Data Engineer": {
+    "required_skills": ["Python", "SQL", "ETL", "Data Warehousing", "Cloud"],
+    "roadmap": [
+      {
+        "title": "Python and SQL foundations",
+        "skills": ["Python", "SQL"],
+        "explanation": "Get strong at scripting, querying, and manipulating structured data.",
+        "resources": ["Python Official Tutorial", "Mode SQL Tutorial"]
+      },
+      {
+        "title": "ETL pipelines",
+        "skills": ["ETL"],
+        "explanation": "Learn how to ingest, transform, validate, and move data reliably.",
+        "resources": ["Airflow docs", "dbt docs"]
+      },
+      {
+        "title": "Data modeling and warehousing",
+        "skills": ["Data Warehousing"],
+        "explanation": "Understand dimensional modeling and analytics-friendly warehouse design.",
+        "resources": ["Kimball concepts", "BigQuery or Snowflake tutorials"]
+      },
+      {
+        "title": "Cloud data services",
+        "skills": ["Cloud"],
+        "explanation": "Use managed storage, compute, and orchestration tools in the cloud.",
+        "resources": ["AWS data engineering paths", "GCP data resources"]
+      },
+      {
+        "title": "Reliability and monitoring",
+        "skills": ["ETL"],
+        "explanation": "Add observability, retries, and data quality checks to pipelines.",
+        "resources": ["Great Expectations docs", "Airflow best practices"]
+      }
+    ]
+  },
+  "Data Scientist": {
+    "required_skills": ["Python", "Statistics", "Machine Learning", "SQL", "Data Visualization"],
+    "roadmap": [
+      {
+        "title": "Python for data work",
+        "skills": ["Python"],
+        "explanation": "Focus on Python basics, data types, functions, and working with notebooks.",
+        "resources": ["Python Official Tutorial", "Kaggle Learn: Python"]
+      },
+      {
+        "title": "SQL fundamentals",
+        "skills": ["SQL"],
+        "explanation": "Learn SELECT, JOINs, aggregations, and basic window functions.",
+        "resources": ["SQLBolt", "Mode SQL Tutorial"]
+      },
+      {
+        "title": "Statistics fundamentals",
+        "skills": ["Statistics"],
+        "explanation": "Cover descriptive statistics, probability, hypothesis testing, and confidence intervals.",
+        "resources": ["Khan Academy: Statistics", "StatQuest (YouTube)"]
+      },
+      {
+        "title": "Data visualization",
+        "skills": ["Data Visualization"],
+        "explanation": "Learn how to communicate insights with clear charts and narrative.",
+        "resources": ["Storytelling with Data (book)", "Matplotlib/Seaborn docs"]
+      },
+      {
+        "title": "Machine learning basics",
+        "skills": ["Machine Learning"],
+        "explanation": "Learn supervised/unsupervised learning, model evaluation, and common algorithms.",
+        "resources": ["Hands-On ML (book)", "scikit-learn tutorials"]
+      }
+    ]
+  },
+  "DevOps Engineer": {
+    "required_skills": ["Linux", "Networking", "Docker", "Kubernetes", "CI/CD", "Cloud"],
+    "roadmap": [
+      {
+        "title": "Linux and shell basics",
+        "skills": ["Linux"],
+        "explanation": "Learn process management, filesystems, permissions, and shell scripting.",
+        "resources": ["Linux Journey", "The Linux Command Line"]
+      },
+      {
+        "title": "Networking foundations",
+        "skills": ["Networking"],
+        "explanation": "Understand ports, DNS, proxies, TLS, and how services talk to each other.",
+        "resources": ["Cloudflare Learning Center", "Networking fundamentals videos"]
+      },
+      {
+        "title": "Containers and Docker",
+        "skills": ["Docker"],
+        "explanation": "Package apps in containers and learn images, volumes, and Compose basics.",
+        "resources": ["Docker docs", "Play with Docker"]
+      },
+      {
+        "title": "CI/CD automation",
+        "skills": ["CI/CD"],
+        "explanation": "Automate testing, builds, and deployments with repeatable pipelines.",
+        "resources": ["GitHub Actions docs", "GitLab CI docs"]
+      },
+      {
+        "title": "Kubernetes and cloud operations",
+        "skills": ["Kubernetes", "Cloud"],
+        "explanation": "Learn orchestration, scaling, and deployment strategies on cloud infrastructure.",
+        "resources": ["Kubernetes docs", "AWS or GCP DevOps guides"]
+      }
+    ]
+  },
+  "Frontend Developer": {
+    "required_skills": ["HTML", "CSS", "JavaScript", "React", "Accessibility"],
+    "roadmap": [
+      {
+        "title": "Semantic HTML",
+        "skills": ["HTML"],
+        "explanation": "Build pages with clean structure and meaningful semantic elements.",
+        "resources": ["MDN HTML", "web.dev Learn HTML"]
+      },
+      {
+        "title": "Modern CSS",
+        "skills": ["CSS"],
+        "explanation": "Learn layout, spacing, responsive design, and reusable styling patterns.",
+        "resources": ["MDN CSS", "CSS-Tricks"]
+      },
+      {
+        "title": "JavaScript essentials",
+        "skills": ["JavaScript"],
+        "explanation": "Master the language fundamentals that power web interfaces.",
+        "resources": ["javascript.info", "MDN JavaScript"]
+      },
+      {
+        "title": "React application development",
+        "skills": ["React"],
+        "explanation": "Build component-based interfaces with state, effects, and routing.",
+        "resources": ["React docs", "Vite + React guides"]
+      },
+      {
+        "title": "Accessibility and polish",
+        "skills": ["Accessibility"],
+        "explanation": "Learn keyboard support, semantics, contrast, and inclusive UI best practices.",
+        "resources": ["MDN accessibility", "A11Y Project"]
+      }
+    ]
+  },
+  "Full Stack Developer": {
+    "required_skills": ["HTML", "CSS", "JavaScript", "React", "APIs", "Databases", "Deployment"],
+    "roadmap": [
+      {
+        "title": "Frontend fundamentals",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "explanation": "Build strong web basics before moving into frameworks and backend systems.",
+        "resources": ["MDN Web Docs", "javascript.info"]
+      },
+      {
+        "title": "React and app architecture",
+        "skills": ["React"],
+        "explanation": "Learn components, state, routing, and reusable UI patterns.",
+        "resources": ["React docs", "Vite docs"]
+      },
+      {
+        "title": "API development",
+        "skills": ["APIs"],
+        "explanation": "Learn request handling, validation, authentication, and error management.",
+        "resources": ["FastAPI docs", "REST API guides"]
+      },
+      {
+        "title": "Database fundamentals",
+        "skills": ["Databases"],
+        "explanation": "Use relational databases and understand modeling, querying, and persistence.",
+        "resources": ["PostgreSQL docs", "SQLBolt"]
+      },
+      {
+        "title": "Deployment and production basics",
+        "skills": ["Deployment"],
+        "explanation": "Ship a full app and learn environment config, monitoring, and debugging.",
+        "resources": ["Docker docs", "Deployment platform guides"]
+      }
+    ]
+  },
+  "Game Developer": {
+    "required_skills": ["Programming Fundamentals", "Game Engine Basics", "Math for Games", "3D Concepts", "Optimization"],
+    "roadmap": [
+      {
+        "title": "Programming foundations",
+        "skills": ["Programming Fundamentals"],
+        "explanation": "Build strong logic, control flow, and debugging fundamentals first.",
+        "resources": ["CS50", "Language tutorial of your choice"]
+      },
+      {
+        "title": "Game engine workflow",
+        "skills": ["Game Engine Basics"],
+        "explanation": "Learn scenes, objects, input, physics, and scripting in a popular engine.",
+        "resources": ["Unity Learn", "Unreal Engine docs"]
+      },
+      {
+        "title": "Math and movement",
+        "skills": ["Math for Games"],
+        "explanation": "Understand vectors, transforms, and collision-related math concepts.",
+        "resources": ["Khan Academy math", "Game math tutorials"]
+      },
+      {
+        "title": "3D and asset pipeline",
+        "skills": ["3D Concepts"],
+        "explanation": "Learn basic rendering, lighting, animation, and asset import workflow.",
+        "resources": ["Blender basics", "Engine rendering guides"]
+      },
+      {
+        "title": "Performance optimization",
+        "skills": ["Optimization"],
+        "explanation": "Profile and optimize frame rate, memory, and loading behavior.",
+        "resources": ["Unity profiling docs", "Unreal optimization docs"]
+      }
+    ]
+  },
+  "Machine Learning Engineer": {
+    "required_skills": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Deployment"],
+    "roadmap": [
+      {
+        "title": "Python and data fundamentals",
+        "skills": ["Python"],
+        "explanation": "Learn Python well enough to manipulate data and build ML experiments.",
+        "resources": ["Python Official Tutorial", "Kaggle Learn"]
+      },
+      {
+        "title": "Classical machine learning",
+        "skills": ["Machine Learning"],
+        "explanation": "Understand the training workflow, evaluation, and common models.",
+        "resources": ["scikit-learn docs", "Hands-On ML"]
+      },
+      {
+        "title": "Deep learning basics",
+        "skills": ["Deep Learning"],
+        "explanation": "Learn neural networks and practical model development with a modern framework.",
+        "resources": ["PyTorch tutorials", "DeepLearning.AI"]
+      },
+      {
+        "title": "MLOps practices",
+        "skills": ["MLOps"],
+        "explanation": "Version data/models, track experiments, and make ML systems reproducible.",
+        "resources": ["MLflow docs", "MLOps guides"]
+      },
+      {
+        "title": "Model deployment",
+        "skills": ["Deployment"],
+        "explanation": "Serve models behind APIs and learn monitoring and rollout basics.",
+        "resources": ["FastAPI docs", "Docker docs"]
+      }
+    ]
+  },
+  "Mobile App Developer": {
+    "required_skills": ["JavaScript", "React Native", "Mobile UI", "APIs", "App Deployment"],
+    "roadmap": [
+      {
+        "title": "Programming and UI basics",
+        "skills": ["JavaScript", "Mobile UI"],
+        "explanation": "Learn core language fundamentals and mobile-first UI patterns.",
+        "resources": ["javascript.info", "Mobile design basics"]
+      },
+      {
+        "title": "React Native fundamentals",
+        "skills": ["React Native"],
+        "explanation": "Build screens, navigation, and stateful mobile experiences.",
+        "resources": ["React Native docs", "Expo docs"]
+      },
+      {
+        "title": "Working with APIs",
+        "skills": ["APIs"],
+        "explanation": "Fetch remote data, handle loading states, and manage offline concerns.",
+        "resources": ["React Native networking guides", "REST API tutorials"]
+      },
+      {
+        "title": "Device features",
+        "skills": ["Mobile UI"],
+        "explanation": "Integrate storage, camera, notifications, and platform-specific UX.",
+        "resources": ["Expo SDK docs", "Platform docs"]
+      },
+      {
+        "title": "Store deployment",
+        "skills": ["App Deployment"],
+        "explanation": "Prepare builds, signing, testing, and release processes for app stores.",
+        "resources": ["Expo build docs", "Google Play/App Store guides"]
+      }
+    ]
+  },
+  "Product Manager": {
+    "required_skills": ["Product Sense", "User Research", "Roadmapping", "Analytics", "Communication"],
+    "roadmap": [
+      {
+        "title": "Product thinking",
+        "skills": ["Product Sense"],
+        "explanation": "Learn how to identify user pain points and evaluate solution quality.",
+        "resources": ["PM case books", "Product School resources"]
+      },
+      {
+        "title": "User research",
+        "skills": ["User Research"],
+        "explanation": "Practice interviews, surveys, and turning insights into decisions.",
+        "resources": ["NNGroup articles", "User research guides"]
+      },
+      {
+        "title": "Roadmapping and prioritization",
+        "skills": ["Roadmapping"],
+        "explanation": "Learn how to define scope, sequence work, and communicate trade-offs.",
+        "resources": ["ProductPlan guides", "Reforge essays"]
+      },
+      {
+        "title": "Analytics and experimentation",
+        "skills": ["Analytics"],
+        "explanation": "Use metrics and experiments to understand outcomes and improve products.",
+        "resources": ["Amplitude Academy", "A/B testing basics"]
+      },
+      {
+        "title": "Stakeholder communication",
+        "skills": ["Communication"],
+        "explanation": "Write clearly, align teams, and present product decisions effectively.",
+        "resources": ["Writing for PMs", "Presentation skills resources"]
+      }
+    ]
+  },
+  "QA Engineer": {
+    "required_skills": ["Testing Fundamentals", "JavaScript", "API Testing", "Automation", "CI/CD"],
+    "roadmap": [
+      {
+        "title": "Testing fundamentals",
+        "skills": ["Testing Fundamentals"],
+        "explanation": "Understand test types, bug reporting, and quality planning basics.",
+        "resources": ["Ministry of Testing", "Software testing tutorials"]
+      },
+      {
+        "title": "Programming for automation",
+        "skills": ["JavaScript"],
+        "explanation": "Learn enough code to write repeatable automated tests and helpers.",
+        "resources": ["javascript.info", "MDN JavaScript"]
+      },
+      {
+        "title": "API testing",
+        "skills": ["API Testing"],
+        "explanation": "Validate requests, auth, schemas, and edge cases in backend APIs.",
+        "resources": ["Postman learning center", "REST testing guides"]
+      },
+      {
+        "title": "UI automation",
+        "skills": ["Automation"],
+        "explanation": "Automate critical user flows with a modern browser automation framework.",
+        "resources": ["Playwright docs", "Cypress docs"]
+      },
+      {
+        "title": "Quality in CI/CD",
+        "skills": ["CI/CD"],
+        "explanation": "Run tests in pipelines and learn how to keep feedback fast and reliable.",
+        "resources": ["GitHub Actions docs", "CI testing best practices"]
+      }
+    ]
+  },
+  "Site Reliability Engineer": {
+    "required_skills": ["Linux", "Networking", "Observability", "Automation", "Incident Response"],
+    "roadmap": [
+      {
+        "title": "Systems and Linux",
+        "skills": ["Linux"],
+        "explanation": "Learn how services run, fail, and recover on real systems.",
+        "resources": ["Linux Journey", "Google SRE workbook excerpts"]
+      },
+      {
+        "title": "Networking under load",
+        "skills": ["Networking"],
+        "explanation": "Understand latency, retries, DNS, TLS, and service communication patterns.",
+        "resources": ["Cloudflare Learning Center", "Networking basics"]
+      },
+      {
+        "title": "Observability",
+        "skills": ["Observability"],
+        "explanation": "Work with logs, metrics, traces, and service health indicators.",
+        "resources": ["Prometheus docs", "OpenTelemetry docs"]
+      },
+      {
+        "title": "Automation",
+        "skills": ["Automation"],
+        "explanation": "Automate repetitive operations and operational guardrails.",
+        "resources": ["Python Official Tutorial", "Shell scripting guides"]
+      },
+      {
+        "title": "Incident response",
+        "skills": ["Incident Response"],
+        "explanation": "Practice triage, postmortems, and improving reliability after failures.",
+        "resources": ["Google SRE book", "Incident response guides"]
+      }
+    ]
+  },
+  "UI/UX Designer": {
+    "required_skills": ["Design Principles", "Wireframing", "Prototyping", "User Research", "Design Systems"],
+    "roadmap": [
+      {
+        "title": "Design fundamentals",
+        "skills": ["Design Principles"],
+        "explanation": "Learn hierarchy, layout, color, typography, and visual consistency.",
+        "resources": ["Refactoring UI", "Design basics courses"]
+      },
+      {
+        "title": "Wireframing and flows",
+        "skills": ["Wireframing"],
+        "explanation": "Map user journeys and create low-fidelity concepts before polishing visuals.",
+        "resources": ["Figma guides", "UX process tutorials"]
+      },
+      {
+        "title": "Interactive prototyping",
+        "skills": ["Prototyping"],
+        "explanation": "Turn ideas into clickable experiences that can be tested quickly.",
+        "resources": ["Figma prototyping docs", "Prototype examples"]
+      },
+      {
+        "title": "User research",
+        "skills": ["User Research"],
+        "explanation": "Gather feedback and convert qualitative insights into design decisions.",
+        "resources": ["NNGroup", "User interview guides"]
+      },
+      {
+        "title": "Design systems",
+        "skills": ["Design Systems"],
+        "explanation": "Create reusable patterns, tokens, and components for scalable design work.",
+        "resources": ["Design systems handbook", "Figma component guides"]
+      }
+    ]
+  },
+  "Web Developer": {
+    "required_skills": ["HTML", "CSS", "JavaScript", "React", "Backend Basics"],
+    "roadmap": [
+      {
+        "title": "HTML foundations",
+        "skills": ["HTML"],
+        "explanation": "Learn semantic markup and accessible document structure.",
+        "resources": ["MDN: HTML", "web.dev Learn HTML"]
+      },
+      {
+        "title": "CSS fundamentals",
+        "skills": ["CSS"],
+        "explanation": "Master layout (Flexbox/Grid), responsive design, and modern styling.",
+        "resources": ["MDN: CSS", "CSS-Tricks Guides"]
+      },
+      {
+        "title": "JavaScript essentials",
+        "skills": ["JavaScript"],
+        "explanation": "Learn core JS, async/await, DOM basics, and tooling concepts.",
+        "resources": ["MDN: JavaScript", "javascript.info"]
+      },
+      {
+        "title": "React core",
+        "skills": ["React"],
+        "explanation": "Learn components, state, effects, routing, and data fetching patterns.",
+        "resources": ["React docs", "Vite + React tutorial"]
+      },
+      {
+        "title": "Backend basics",
+        "skills": ["Backend Basics"],
+        "explanation": "Learn REST, HTTP, authentication basics, databases, and deployment fundamentals.",
+        "resources": ["MDN: HTTP overview", "FastAPI tutorial"]
+      }
+    ]
+  }
+}
+
