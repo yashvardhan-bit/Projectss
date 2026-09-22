@@ -97,6 +97,11 @@ def infer_custom_role_profile(role: str) -> Dict[str, Any]:
 
 
 def analyze_skill_gap(role: str, user_skills: List[str]) -> Tuple[List[str], List[str], Dict[str, Any]]:
+    """Compare a user's skills with a role's requirements and return the gap.
+
+    Returns matching and extra user skills, missing required skills, and the
+    role profile used for the comparison.
+    """
     data = load_roles()
     role_info = data.get(role) or infer_custom_role_profile(role)
     required: List[str] = role_info["required_skills"]
@@ -117,6 +122,12 @@ def analyze_skill_gap(role: str, user_skills: List[str]) -> Tuple[List[str], Lis
 
 
 def fallback_roadmap(role_info: Dict[str, Any], existing_skills: List[str], missing_skills: List[str]) -> List[RoadmapStep]:
+    """Build a numbered roadmap from the role profile and the user's skill gap.
+
+    Steps are limited to missing skills, unless there is no gap, in which case
+    the complete role roadmap is returned. If no profile step covers a missing
+    skill, a generic learning step is created for each unmatched skill.
+    """
     existing_norm = {_normalize_skill(s) for s in existing_skills}
     missing_norm = {_normalize_skill(s) for s in missing_skills}
 
