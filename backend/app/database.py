@@ -11,3 +11,11 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
+Base = declarative_base() # TODO: Explain this when covering more db concepts
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
