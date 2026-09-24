@@ -45,18 +45,6 @@ def _generic_resources(skill: str) -> List[str]:
     ]
 
 
-def _build_profile(required_skills: List[str]) -> Dict[str, Any]:
-    roadmap = []
-    for skill in required_skills:
-        roadmap.append(
-            {
-                "title": f"Learn {skill}",
-                "skills": [skill],
-                "explanation": f"Build a solid foundation in {skill}, then practice it with a focused real-world project.",
-                "resources": _generic_resources(skill),
-            }
-        )
-    return {"required_skills": required_skills, "roadmap": roadmap}
 
 
 def infer_custom_role_profile(role: str) -> Dict[str, Any]:
@@ -95,7 +83,19 @@ def infer_custom_role_profile(role: str) -> Dict[str, Any]:
         ]
     )
 
-
+def _build_profile(required_skills: List[str]) -> Dict[str, Any]:
+    roadmap = []
+    for skill in required_skills:
+        roadmap.append(
+            {
+                "title": f"Learn {skill}",
+                "skills": [skill],
+                "explanation": f"Build a solid foundation in {skill}, then practice it with a focused real-world project.",
+                "resources": _generic_resources(skill),
+            }
+        )
+    return {"required_skills": required_skills, "roadmap": roadmap}
+    
 def analyze_skill_gap(role: str, user_skills: List[str]) -> Tuple[List[str], List[str], Dict[str, Any]]:
     """Compare a user's skills with a role's requirements and return the gap.
 
