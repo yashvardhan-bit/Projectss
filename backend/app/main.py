@@ -44,7 +44,8 @@ def roles():
 
 
 @app.post("/analyze", response_model=AnalyzeResponse)
-async def analyze(req: AnalyzeRequest):
+@app.post("/determine", response_model=AnalyzeResponse)
+async def determine(req: AnalyzeRequest):
     try:
         existing, missing, role_info = analyze_skill_gap(req.role, req.skills)
     except ValueError as e:
